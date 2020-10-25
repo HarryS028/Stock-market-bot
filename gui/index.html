@@ -7,35 +7,44 @@
     <script src="linkers/price-app.js"></script>
   </head>
   <body>
-    <h1>IG Data</h1>
-    <h2>Login</h2>
+    <h1 id="side-header">IG Data</h1>
 
-    <div id="form-wrapper">
-      <form id="form" onsubmit="login()" action="search.html">
-        <div class="rows">
+    <div class="form-background">
 
-          <div class="column">
-            <label class="theLabels" for="key">API key:</label>
-            <input class="theInputs" id="key" name="key" type="text" required>
+      <div id="circle">
+        <img src="user-icon.png">
+      </div>
+      <h2 id="login-header">Login</h2>
+
+      <div id="form-wrapper">
+        <form id="form" onsubmit="login()" action="search.html">
+          <div class="rows">
+
+            <div class="column">
+              
+              <input class="theInputs" id="key" name="key" type="text" placeholder="API key" required>
+            </div>
+
+            <div class="column">
+              
+              <input class="theInputs" id="username" name="username" type="text" placeholder="Username" required>
+            </div>
+
+            <div class="column">
+              
+              <input class="theInputs" id="password" name="password" type="password" placeholder="Password" required>
+            </div>
+
+            <div class="column">
+              <input id="login" class="theInputs" type="submit" value="Login">
+            </div>
+      
           </div>
+        </form>
+      </div>
 
-          <div class="column">
-            <label class="theLabels" for="username">Username:</label>
-            <input class="theInputs" id="username" name="username" type="text" required>
-          </div>
-
-          <div class="column">
-            <label class="theLabels" for="password">Password:</label>
-            <input class="theInputs" id="password" name="password" type="password" required>
-          </div>
-
-          <div class="column">
-            <input type="submit" value="Login">
-          </div>
-    
-        </div>
-      </form>
     </div>
+
   </body>
 
 </html>

@@ -1,14 +1,58 @@
+body {
+    background-image: url('blur-background.jpg');
+}
+
+#circle {
+    border-radius: 50%;
+    background-color: steelblue;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25%;
+}
+
+#circle img {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
 #form {
     width: 100%;
+}
+
+.form-background {
+    background: rgba(255, 255, 255, 0.616);
+    padding-bottom: 5%;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    padding-top: 5%;
 }
 
 h2 {
     text-align: center; 
 }
 
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#login {
+    background-color: steelblue;
+    font-size: large;
+    color: white;
+    font-weight: 50;
+}
+
+#login-header {
+    margin-bottom: -1%;
+    color: rgb(99, 113, 128);
+}
+
 .column {
     width:100%;
-    display:inline-block;  
+    display:inline-block; 
 }
 
 .rows {
@@ -22,11 +66,21 @@ h2 {
 }
 
 .theInputs {
-    width:60%;
-    float:right;
+    width:80%;
+    margin-left: 10%;
+    float: unset;
+    margin-top: 4%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: large;
 }
 
 #form-wrapper {
-    width:40%;
+    width:80%;
     margin:auto;
+}
+
+#side-header {
+    color: transparent;
 }
