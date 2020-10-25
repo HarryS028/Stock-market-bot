@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IG Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="linkers/price-app.js"></script>
+  </head>
+  <body>
+    <h1>IG Data</h1>
+    <h2>Login</h2>
+
+    <div id="form-wrapper">
+      <form id="form" onsubmit="login()" action="search.html">
+        <div class="rows">
+
+          <div class="column">
+            <label class="theLabels" for="key">API key:</label>
+            <input class="theInputs" id="key" name="key" type="text" required>
+          </div>
+
+          <div class="column">
+            <label class="theLabels" for="username">Username:</label>
+            <input class="theInputs" id="username" name="username" type="text" required>
+          </div>
+
+          <div class="column">
+            <label class="theLabels" for="password">Password:</label>
+            <input class="theInputs" id="password" name="password" type="password" required>
+          </div>
+
+          <div class="column">
+            <input type="submit" value="Login">
+          </div>
+    
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>

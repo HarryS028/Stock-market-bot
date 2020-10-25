@@ -1,0 +1,32 @@
+#option-form {
+    width: 100%;
+}
+
+h2 {
+    text-align: center; 
+}
+
+.option-column {
+    width:100%;
+    display:inline-block;
+}
+
+.option-rows {
+    width:100%;
+    display:block;
+}
+
+.optionLabels {
+    width:30%;
+    float:left;
+}
+
+.theSelected {
+    width:60%;
+    float:right;
+}
+
+#option-wrapper {
+    width:40%;
+    margin:auto;
+}

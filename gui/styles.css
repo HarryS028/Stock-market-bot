@@ -1,0 +1,32 @@
+#form {
+    width: 100%;
+}
+
+h2 {
+    text-align: center; 
+}
+
+.column {
+    width:100%;
+    display:inline-block;  
+}
+
+.rows {
+    width:100%;
+    display:block;
+}
+
+.theLabels {
+    width:30%;
+    float:left;
+}
+
+.theInputs {
+    width:60%;
+    float:right;
+}
+
+#form-wrapper {
+    width:40%;
+    margin:auto;
+}

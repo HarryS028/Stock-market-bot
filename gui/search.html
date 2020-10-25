@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IG Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="linkers/price-app.js"></script>
+  </head>
+  <body>
+    <h1>IG Data</h1>
+
+    <a href="index.html"><Button>Logout</Button></a>
+
+    <div id="option-wrapper">
+      <form id="option-form" onsubmit="get_data()">
+        <div class="option-rows">
+
+          <div class="option-column">
+            <label class="optionLabels" for="resolution">Resolution:</label>
+            <select class="theSelected" name="resolution">
+              <option disabled selected value> -- select an option -- </option>
+              <option>1 minutes</option>
+              <option>5 minutes</option>
+              <option>10 minutes</option>
+              <option>30 minutes</option>
+              <option>1 hour</option>
+              <option>2 hour</option>
+              <option>4 hour</option>
+              <option>1 day</option>
+              <option>1 week</option>
+              <option>1 month</option>
+            </select>
+          </div>
+
+          <div class="option-column">
+            <label class="optionLabels" for="market">Market:</label>
+            <select class="theSelected" name="market">
+              <option disabled selected value> -- select an option -- </option>
+              <option>Bitcoin</option>
+              <option>Dow Jones(DJIA)</option>
+              <option>FTSE 100</option>
+              <option>Spot Gold</option>
+              <option>NASDAQ Comp.</option>
+              <option>Nikkei 225</option>
+              <option>S&P 500</option>
+              <option>Spot Silver</option>
+              <option>SSE Comp.</option>
+            </select>
+          </div>
+
+          <div class="option-column">
+            <label class="optionLabels" for="output">Output location:</label>
+            <input class="theSelected" name="output" type="file">
+          </div>
+
+          <div class="option-column">
+            <input type="submit" value="Get data">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
