@@ -78,7 +78,7 @@ def get_data(headers, start_date, end_date, resolution, epic):
 
     return "Data collection is complete."
 
-log_in_head = log_in("bfd47a8af81a87aa0f45020e8aac3286e46754e3", "HarryS028", "Jimbob01")
+log_in_head = log_in()
 print(get_data(log_in_head, "2020-03-20 02:00:00", "2020-03-20 03:00:00", "MINUTE_5", "IX.D.FTSE.DAILY.IP"))
 
  
